@@ -7,3 +7,7 @@ Working
 2) GET request from '/search/:str' returns all the servers whose name contains the string str. If there's no matching servers it returns a 404 error.
 3) POST request from '/' with a JSON file as request body is first checked if the id passed in the request body is matching with the id of servers already existing in the database. If so it returns "id already exists" else it stores the JSON file in the database and it returns "Saved Succesfully".
 4) DELETE request from '/:id' searches for the database for matching id field. If found it deletes the document and sends "Deleted successfully" else it returns a 404 error.
+
+Dependencies
+------------
+Express, Mongoose and Body-parser
