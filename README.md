@@ -10,4 +10,4 @@ Working
 
 Dependencies
 ------------
-Express, Mongoose and Body-parser
+express, mongoose and body-parser
